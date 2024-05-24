@@ -1,0 +1,187 @@
+/* Marcações Universais */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+p {
+  font-size: 16px;
+}
+
+h5,
+h6 {
+  font-size: 22px;
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+.card {
+  transition: all 0.4s;
+}
+
+
+/* Marcações Navbar */
+nav img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.nav-link {}
+
+.nav-hover:hover {
+  border-bottom: 2px solid rgb(173, 173, 173);
+}
+
+#btn-navbar:hover {
+  transform: scale(1.05);
+}
+
+
+/* Marcações Main */
+.card-title {
+  background-color: #0072d8;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.card-text {
+  margin: 0;
+  padding: 20px;
+}
+
+.link-card {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.link-card:hover {
+  text-decoration: underline;
+  color: #003f79;
+}
+
+.card img {
+  height: 300px;
+}
+
+
+/* Marcações Article */
+article {
+  background-image: url(../img/wall-peso.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 4rem;
+
+}
+
+#section-item {
+  margin-top: 1em;
+  font-size: 19px;
+}
+
+
+#item-art {
+  color: white;
+}
+
+.card-title2 {
+  padding-top: 1em;
+}
+
+.card-img-top {}
+
+#card-group {
+  padding-bottom: 5rem;
+}
+
+#section-item {
+  color: white;
+}
+
+
+/* Marcações Footer */
+#title-contacto {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#contact-area {
+  text-align: center;
+  background-color: #d2d3d946;
+}
+
+#fundo-tela {
+  height: 900px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.contact-box {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.contact-box i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #0072d8;
+}
+
+#msg-box p {
+  font-size: 22px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  height: 50px;
+}
+
+.sociais button {
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(45deg, #051624, #008cff, #7ec3ff);
+  border: none;
+  margin: 5px;
+  border-radius: 30%;
+}
+
+.sociais button i {
+  font-size: 25px;
+}
+
+button i {
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.4);
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
